@@ -2,7 +2,7 @@
 
 Instant prompt storage and copy-paste for AI workflows. A Raycast extension.
 
-![PromptVault Demo](assets/demo.png)
+![Search Prompts](metadata/promptvault-1.png)
 
 ## Features
 
@@ -24,7 +24,7 @@ Instant prompt storage and copy-paste for AI workflows. A Raycast extension.
 
 ## Installation
 
-### From Raycast Store (Coming Soon)
+### From Raycast Store
 
 Search "PromptVault" in the Raycast Store and install.
 
@@ -79,7 +79,7 @@ All prompts are stored in Raycast's LocalStorage. To backup or migrate:
 - [x] Tag-based organization
 - [x] Frecency sorting
 - [x] Quick copy by tag
-- [ ] Edit existing prompts
+- [x] Edit existing prompts
 - [ ] Variable placeholders (`{{topic}}`)
 - [ ] Import/Export JSON
 - [ ] Clipboard history integration
