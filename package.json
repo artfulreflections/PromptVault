@@ -1,0 +1,55 @@
+{
+  "name": "promptvault",
+  "title": "PromptVault",
+  "description": "Instant prompt storage and copy-paste for AI workflows",
+  "icon": "icon.png",
+  "author": "artfulreflections",
+  "categories": ["Productivity", "Developer Tools"],
+  "license": "MIT",
+  "commands": [
+    {
+      "name": "search-prompts",
+      "title": "Search Prompts",
+      "description": "Find and copy saved prompts instantly",
+      "mode": "view"
+    },
+    {
+      "name": "add-prompt",
+      "title": "Add Prompt",
+      "description": "Save a new prompt to your vault",
+      "mode": "view"
+    },
+    {
+      "name": "quick-copy",
+      "title": "Quick Copy by Tag",
+      "description": "Copy prompts filtered by tag",
+      "mode": "view",
+      "arguments": [
+        {
+          "name": "tag",
+          "placeholder": "Tag to filter by",
+          "type": "text",
+          "required": false
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "@raycast/api": "^1.64.0",
+    "@raycast/utils": "^1.10.0",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "@types/react": "^18.2.0",
+    "@types/uuid": "^9.0.7",
+    "typescript": "^5.3.0"
+  },
+  "scripts": {
+    "build": "ray build -e dist",
+    "dev": "ray develop",
+    "fix-lint": "ray fix-lint",
+    "lint": "ray lint",
+    "publish": "ray publish"
+  }
+}
