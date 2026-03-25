@@ -4,8 +4,12 @@
   "description": "Instant prompt storage and copy-paste for AI workflows",
   "icon": "icon.png",
   "author": "artfulreflections",
-  "categories": ["Productivity", "Developer Tools"],
+  "categories": [
+    "Productivity",
+    "Developer Tools"
+  ],
   "license": "MIT",
+  "raycastVersion": ">=1.64.0",
   "commands": [
     {
       "name": "search-prompts",
@@ -37,11 +41,11 @@
   "dependencies": {
     "@raycast/api": "^1.64.0",
     "@raycast/utils": "^1.10.0",
+    "@types/react": "^19.0.10",
     "uuid": "^9.0.1"
   },
   "devDependencies": {
     "@types/node": "^20.10.0",
-    "@types/react": "^18.2.0",
     "@types/uuid": "^9.0.7",
     "typescript": "^5.3.0"
   },
